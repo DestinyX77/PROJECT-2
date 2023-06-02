@@ -344,7 +344,6 @@ input[type="text"] {
 .footer-column3 {
   flex: 1;
   padding: 10px;
-  box-sizing: border-box;
   text-align: left;
   border-right: 1px solid #E8FFC2;
   margin-left: 40px;
@@ -366,11 +365,6 @@ input[type="text"] {
   border-right: none;
 }
 
-.footer-column3:last-child {
-  border-right: none;
-}
-
-
 
 .footer-column ul {
 	font-family: 'Didact Gothic', sans-serif;
@@ -388,19 +382,6 @@ input[type="text"] {
 .footer-column li {
   margin-bottom: -5px;
 }
-
-.footer-column:after {
-  content: "";
-  display: block;
-  height: 100%;
-  width: 1px;
-  background-color: #ccc;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-
 
 .sign-in-button {
 	 display: inline-block;
