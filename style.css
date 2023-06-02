@@ -336,7 +336,6 @@ input[type="text"] {
 .footer-column {
   flex: 1;
   padding: 10px;
-  box-sizing: border-box;
   text-align: left;
   border-right: 1px solid #E8FFC2;
 }
@@ -345,7 +344,6 @@ input[type="text"] {
   flex: 1;
   padding: 10px;
   text-align: left;
-  border-right: 1px solid #E8FFC2;
   margin-left: 40px;
 }
 
